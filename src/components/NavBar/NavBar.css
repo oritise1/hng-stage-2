@@ -1,0 +1,43 @@
+.navWrapper{
+    width: 1440px;
+    height: 114px;
+    justify-content: space-between;
+    padding: 24px 76px;
+    display: flex;
+}
+.navImg {
+    width: 121px;
+    height: 66px;
+    gap: 10px;
+    padding: 10px 10px;
+    display: flex;
+}
+.img{
+    width: 101px;
+    height: 46px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46.24px;
+}
+.navList{
+    width: 467px;
+    height: 35px;
+    gap: 24px;
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 45px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34.68px;
+}
+.navIcon{
+    width: 128px;
+    height: 24px;
+    gap: 24px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 50px;
+}

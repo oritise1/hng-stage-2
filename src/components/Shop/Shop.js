@@ -1,11 +1,11 @@
 import React from 'react'
 import './Shop.css'
-import { ReactComponent as ShopIcon } from '../../images/shopImg.svg';
+import ShopIcon from '../../images/shopImg.svg';
 
 const Shop = () => {
   return (
     <div className='shopWrapper'>
-        <ShopIcon />
+        <img src={ShopIcon} alt='no shop' />
         <h2 className='shopText'>
             Shop
         </h2>

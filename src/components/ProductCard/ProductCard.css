@@ -1,0 +1,43 @@
+.cardFrame {
+    width: 420px;
+    height: 508px;
+    row-gap: 16px;
+    top: 1080px;
+    position: absolute;
+}
+.cardImg {
+    width: 420px;
+    height: 420px;
+    position: relative;
+}
+.cardCart {
+    width: 48px;
+    height: 48px;
+    left: 350px;
+    top: 120px;
+    position: absolute;
+}
+.cardDetail {
+    width: 262px;
+    height: 72px;
+    left: 79px;
+    top: 436px;
+    position: absolute;
+}
+.cardH2{
+    width: 262px;
+    height: 35px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 0;
+}
+.cardP{
+    width: 262px;
+    height: 29px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 0;
+    text-align: center;
+}

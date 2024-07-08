@@ -1,19 +1,35 @@
 .shopWrapper {
-    width: 1273px;
-    height: 636.5px;
-    top: 144px;
-    left: 75px;
-    position: absolute;
+    width: 90%;
+    max-width: 1273px;
+    height: auto;
+    margin: 20px auto;
+    position: relative;
     border-radius: 4px;
 }
-.shopText{
-    width: 146px;
-    height: 92px;
-    top: 200px;
-    left: 530px;
+
+.shopText {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     font-size: 64px;
-    line-height: 92.48px;
-    position: absolute;
+    line-height: 1.2;
+    text-align: center;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .shopText {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 480px) {
+    .shopText {
+        font-size: 32px;
+        line-height: 1.2;
+    }
 }

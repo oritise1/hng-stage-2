@@ -1,20 +1,47 @@
 .footerWrapper {
     width: 100%;
     height: 80px;
-    top: 3846px;
     position: absolute;
+    bottom: 0;
 }
-.foot{
+
+.foot {
     width: 180px;
     height: 49px;
     top: 15px;
-    left: 642px;
+    left: 50%;
+    transform: translateX(-50%);
     position: absolute;
     display: inline;
 }
+
 .footL {
     font-family: 'Jost', sans-serif;
     font-weight: 200;
     font-size: 20px;
-    line-height: 0;
+    line-height: 1; 
+}
+
+@media (max-width: 768px) {
+    .foot {
+        width: 150px; 
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footL {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .foot {
+        width: 120px; 
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footL {
+        font-size: 16px;
+    }
 }

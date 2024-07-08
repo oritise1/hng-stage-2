@@ -1,19 +1,20 @@
 .cardFrame {
-    width: 420px;
-    height: 508px;
+    width: 370px;
+    height: 520px;
     row-gap: 16px;
     top: 1080px;
     position: absolute;
+    display: flex;
 }
 .cardImg {
-    width: 420px;
+    width: 380px;
     height: 420px;
     position: relative;
 }
 .cardCart {
     width: 48px;
     height: 48px;
-    left: 350px;
+    left: 320px;
     top: 120px;
     position: absolute;
 }

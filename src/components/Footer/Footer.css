@@ -1,0 +1,20 @@
+.footerWrapper {
+    width: 100%;
+    height: 80px;
+    top: 3846px;
+    position: absolute;
+}
+.foot{
+    width: 180px;
+    height: 49px;
+    top: 15px;
+    left: 642px;
+    position: absolute;
+    display: inline;
+}
+.footL {
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 0;
+}

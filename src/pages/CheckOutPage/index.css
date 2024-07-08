@@ -1,0 +1,22 @@
+.check{
+    width: 100%;
+    display: flex;
+}
+.checkout {
+    width: 388.78px;
+    height: 78.36px;
+    position: absolute;
+    top: 165px;
+    left: 631px;
+}
+.back {
+    width: 100px;
+    height: 23px;
+    position: absolute;
+    top: 176px;
+    left: 1273px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Jost', sans-serif;
+    color: black;
+}

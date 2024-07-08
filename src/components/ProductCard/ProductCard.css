@@ -1,44 +1,97 @@
 .cardFrame {
-    width: 370px;
-    height: 520px;
-    row-gap: 16px;
-    top: 1080px;
-    position: absolute;
+    width: 90%;
+    max-width: 370px;
+    height: auto;
+    margin: 20px auto;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    row-gap: 16px;
 }
+
 .cardImg {
-    width: 380px;
-    height: 420px;
+    width: 100%;
+    max-width: 380px;
+    height: auto;
     position: relative;
 }
+
 .cardCart {
     width: 48px;
     height: 48px;
-    left: 320px;
-    top: 120px;
     position: absolute;
+    right: 10px;
+    top: 10px;
 }
+
 .cardDetail {
-    width: 262px;
-    height: 72px;
-    left: 79px;
-    top: 436px;
-    position: absolute;
+    width: 100%;
+    max-width: 262px;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
-.cardH2{
-    width: 262px;
-    height: 35px;
+
+.cardH2 {
+    width: 100%;
+    max-width: 262px;
+    height: auto;
     font-family: 'Jost', sans-serif;
     font-weight: 300;
     font-size: 24px;
-    line-height: 0;
+    line-height: 1.2;
+    text-align: center;
 }
-.cardP{
-    width: 262px;
-    height: 29px;
+
+.cardP {
+    width: 100%;
+    max-width: 262px;
+    height: auto;
     font-family: 'Jost', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    line-height: 0;
+    line-height: 1.2;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .cardFrame {
+        width: 90%;
+        max-width: 330px;
+    }
+
+    .cardImg {
+        max-width: 330px;
+    }
+
+    .cardDetail {
+        max-width: 230px;
+    }
+
+    .cardH2, .cardP {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cardFrame {
+        width: 95%;
+        max-width: 300px;
+    }
+
+    .cardImg {
+        max-width: 300px;
+    }
+
+    .cardDetail {
+        max-width: 200px;
+    }
+
+    .cardH2, .cardP {
+        font-size: 16px;
+    }
 }

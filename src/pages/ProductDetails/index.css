@@ -22,7 +22,7 @@
     margin-top: -20px;
 }
 .sideH{
-    width: 251px;
+    width: 300px;
     height: 35px;
     font-family: 'Jost', sans-serif;
     font-weight: 400;
@@ -61,14 +61,56 @@
     border: 4px;
     padding: 10px 16px;
 }
-.btn2{
+.btn21{
     width: 156px;
     height: 49px;
     border-radius: 1px;
     border: 4px;
     padding: 10px 16px;
     background-color: #000;
-    color: #f7f7f7;
+    color: rgb(247, 247, 247);
     gap: 10px;
     display: flex;
+}
+@media screen and (max-width: 1200px) {
+    .details {
+        padding: 10px;
+    }
+    .inner {
+        grid-template-columns: 1fr;
+    }
+    .textSide,
+    .sideHead {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inner {
+        gap: 10px;
+    }
+    .sideH,
+    .sideP,
+    .story {
+        font-size: 1.2rem;
+    }
+    .btn1,
+    .btn21 {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sideH {
+        font-size: 1.5rem;
+    }
+    .story {
+        font-size: 1rem;
+    }
+    .btn1,
+    .btn21 {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+    }
 }

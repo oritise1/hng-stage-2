@@ -1,0 +1,111 @@
+.page {
+    width: 60%;
+    height: 80%;
+}
+.midPage{
+    width: 236px;
+    height: 383px;
+    top: 34px;
+    left: 17px;
+    position: absolute;
+    gap: 32px;
+    display: flex;
+}
+.btn2{
+    width: 156px;
+    height: 49px;
+    border-radius: 1px;
+    border: 4px;
+    padding: 10px 16px;
+    background-color: #000;
+    color: #f7f7f7;
+    gap: 10px;
+    display: flex;
+    top: 339px;
+    position: absolute;
+}
+.midHead{
+    width: 236px;
+    height: 35px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34.68px;
+    top: 0;
+    position: absolute; 
+}
+.midImg{
+    width: 100px;
+    height: 100px;
+    border: 4px;
+    top: 32px;
+    position: absolute; 
+}
+.midText{
+    width: 236px;
+    height: 108px;
+    gap: 32px;
+    display: flex;
+    top: 199px;
+    position: absolute; 
+}
+.midH {
+    width: 236px;
+    height: 23px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.12px; 
+    top: 0;
+    position: absolute; 
+}
+.midP {
+    width: 236px;
+    height: 17px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17.34px;  
+    color: #827F7F;
+    top: 25px;
+    position: absolute; 
+}
+.qual{
+    width: 88px;
+    height: 28px;
+    gap: 8px;
+    display: flex;
+    top: 70px;
+    position: absolute; 
+}
+.qualLab{
+    width: 48px;
+    height: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20.23px;  
+    color: #827F7F;
+}
+.qualText {
+    width: 32px;
+    height: 18px;
+    gap: 10px;
+    display: flex;
+    border-radius: 6px;
+    padding: 4px 12px;
+}
+.x {
+    width: 50px;
+    height: 40px;
+    top: 573px;
+    left: 416px;
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 20.23px;
+    padding: 0px 1px;
+    text-align: center;
+}

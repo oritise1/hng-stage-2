@@ -12,17 +12,17 @@
 
 .cardImg {
     width: 100%;
-    max-width: 380px;
+    max-width: 700px;
     height: auto;
     position: relative;
 }
 
 .cardCart {
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 17px;
+    top: 74px;
 }
 
 .cardDetail {
@@ -67,7 +67,9 @@
     .cardImg {
         max-width: 330px;
     }
-
+    .cardCart {
+        max-width: fit-content;
+    }
     .cardDetail {
         max-width: 230px;
     }

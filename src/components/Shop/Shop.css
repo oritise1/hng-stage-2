@@ -1,9 +1,10 @@
 .shopWrapper {
-    width: 90%;
+    width: 100%;
     max-width: 1273px;
     height: auto;
-    margin: 20px auto;
-    position: relative;
+    top: 144px;
+    left: 80px;
+    position: absolute;
     border-radius: 4px;
 }
 
@@ -11,25 +12,24 @@
     width: auto;
     max-width: 100%;
     height: auto;
-    margin: 20px auto;
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     font-size: 64px;
     line-height: 1.2;
     text-align: center;
-    position: relative;
+    top: 210px;
+    left: 530px;
+    position: absolute;
 }
 
 @media (max-width: 768px) {
     .shopText {
-        font-size: 48px;
-        line-height: 1.2;
+        font-size: 52px;
     }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .shopText {
         font-size: 32px;
-        line-height: 1.2;
     }
-}
+} */

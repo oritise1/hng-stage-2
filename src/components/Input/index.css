@@ -1,9 +1,9 @@
 .input {
-    width: 80%;
+    width: 95%;
     height: auto; 
-    top: 195px;
+    top: 309px;
     position: absolute;
-    left: 10%;
+    left: 80px;
 }
 
 .inputHead {
@@ -21,15 +21,15 @@
     position: absolute;
 }
 
-label {
+#fname {
     font-family: 'Jost', sans-serif;
     font-weight: 100;
     font-size: 16px;
     line-height: 1.5;
 }
 
-input {
-    width: 100%;
+.fname {
+    width: 93%;
     height: 50px;
     margin-top: 16px;
     margin-bottom: 16px;

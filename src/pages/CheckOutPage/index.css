@@ -11,7 +11,8 @@
     max-width: 388.78px;
     height: auto;
     margin: 20px auto;
-    position: relative;
+    position: absolute;
+    top: 120px;
     text-align: center;
 }
 
@@ -24,10 +25,17 @@
     font-weight: 300;
     font-family: 'Jost', sans-serif;
     color: black;
-    position: relative;
-    text-align: center;
+    top: 176px;
+    right: 80px;
+    position: absolute;
+    text-align: right;
 }
-
+.checkFoot{
+    width: auto;
+    bottom: 0;
+    position: absolute;
+    top: 1968px;
+}
 @media (max-width: 768px) {
     .checkout {
         width: 80%;

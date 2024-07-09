@@ -8,7 +8,7 @@ import ProductCard from '../ProductCard/ProductCard';
 
 const Product = () => {
     return (
-        <div>
+        <div style={{top:'800px', left:'80px', position:'absolute'}}>
             <h3 className='prodHead'>
                 All Products
             </h3>

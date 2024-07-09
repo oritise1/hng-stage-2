@@ -10,12 +10,17 @@ const CheckOut = () => {
     <div className='check'>
       <NavBar />
       <div className='checkout'>
-            CheckOut
+            <h1>CheckOut</h1>
+            <p>Have a Coupon ? Click here to enter the code</p>
       </div>
-    <a href='#' target='_self' rel='nonrefere' className='back'> Back to Shop </a>
+        <a href='#' target='_self' rel='nonrefere' className='back'> Back to Shop </a>
       <Input />
       <Order />
-      <Footer />
+      <div className='checkFoot'>
+      &copy;
+                <span className='img' style={{fontSize:'20px'}}>  TIMBU </span>
+                <span className='footL'>2024</span>  
+      </div>
     </div>
   )
 }

@@ -39,7 +39,7 @@
 @media (max-width: 768px) {
     .checkout {
         width: 80%;
-        max-width: 450px;
+        max-width: 400px;
     }
 
     .back {

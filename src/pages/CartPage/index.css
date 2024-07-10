@@ -109,3 +109,10 @@
     padding: 0px 1px;
     text-align: center;
 }
+@media (max-width: 480px) {
+    .page {
+        width: 90%;
+        max-width: 300px;
+    }
+
+}

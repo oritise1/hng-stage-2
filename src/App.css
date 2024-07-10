@@ -5,13 +5,16 @@
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 768px) {
+    .App {
+        width: 80%;
+        max-width: 400px;
+    }
+}
+
 @media (max-width: 480px) {
     .App {
         width: 90%;
         max-width: 300px;
-    }
-
-    .App {
-        max-width: 70px;
     }
 }

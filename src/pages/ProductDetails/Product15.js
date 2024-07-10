@@ -22,14 +22,16 @@ const Product1 = () => {
           <p className='story'>
           Embrace the timeless beauty of our Lacquered Solid Oak Collection. Each piece is meticulously crafted from reclaimed wood, imbued with the rich patina and unique imperfections that tell a story. Discover rustic charm and enduring character that will grace your home for generations to come.          </p>
           <div className='cartBtn'>
-            <div>
+            <Link to='/cart' style={{textDecoration:'none'}}>
               <button className='btn1'>
-                Add Cart
+               Add Cart 
               </button>
-            </div>
+              </Link>
+            <Link to='/checkout' style={{textDecoration:'none'}} >
             <button className='btn21'>
-              <span style={{ marginTop: '6px' }}> <Link to='/checkout' >Checkout </Link></span> <Arrow />
+              <span style={{ marginTop: '6px' }}> Checkout </span> <Arrow />
             </button>
+            </Link>
           </div>
         </div>
       </div>

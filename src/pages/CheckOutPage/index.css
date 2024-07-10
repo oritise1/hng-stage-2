@@ -39,12 +39,15 @@
 @media (max-width: 768px) {
     .checkout {
         width: 80%;
-        max-width: 350px;
+        max-width: 450px;
     }
 
     .back {
+        position: absolute;
+        margin-left: 241px;
         font-size: 14px;
         max-width: 80px;
+        left: 225px;
     }
 }
 

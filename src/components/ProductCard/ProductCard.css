@@ -8,6 +8,7 @@
     align-items: center;
     position: relative;
     row-gap: 16px;
+    text-decoration: none;
 }
 
 .cardImg {
@@ -34,6 +35,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    text-decoration: none;
 }
 
 .cardH2 {
@@ -45,6 +47,7 @@
     font-size: 24px;
     line-height: 1.2;
     text-align: center;
+    color: #000;
 }
 
 .cardP {
@@ -56,6 +59,7 @@
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
+    color:#827F7F;
 }
 
 @media (max-width: 768px) {

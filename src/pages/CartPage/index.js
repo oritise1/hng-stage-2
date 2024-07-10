@@ -20,12 +20,16 @@ const CartPage = () => {
             <input type='text' className='qualText' defaultValue={1} />
           </form>
         </div>
-        <button className='btn2'>
-          <span style={{ marginTop: '6px' }}><Link to='/checkout' >Checkout </Link></span> <Arrow />
-        </button>
+        <Link to='/checkout' style={{textDecoration:'none'}} >
+            <button className='btn2'>
+              <span style={{ marginTop: '6px' }}> Checkout </span> <Arrow />
+            </button>
+            </Link>
       </div>
       <div className='x'>
+        <Link to='/' style={{textDecoration:'none'}}>
         &times;
+        </Link>
       </div>
     </div>
   )

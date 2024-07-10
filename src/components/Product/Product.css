@@ -71,7 +71,7 @@
     max-width: 1230px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-    gap: 10px
+    gap: 10px;
 }
 
 .explore {

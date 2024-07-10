@@ -2,6 +2,9 @@ import React from 'react'
 import './index.css'
 
 const Order = () => {
+    const orderClick = () => {
+        alert('Order Completed');
+    }
     return (
         <div className='order'>
             <div className='list'>
@@ -71,7 +74,7 @@ const Order = () => {
                     </form>
             </div>
             <div>
-                <button className='btn'> Complete Order </button>
+                <button className='btn' onClick={orderClick}> Complete Order </button>
             </div>
         </div>
     )

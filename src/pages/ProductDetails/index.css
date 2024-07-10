@@ -72,18 +72,6 @@
     gap: 10px;
     display: flex;
 }
-@media screen and (max-width: 1200px) {
-    .details {
-        padding: 10px;
-    }
-    .inner {
-        grid-template-columns: 1fr;
-    }
-    .textSide,
-    .sideHead {
-        width: 100%;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .inner {
@@ -101,7 +89,7 @@
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 480px) {
     .sideH {
         font-size: 1.5rem;
     }

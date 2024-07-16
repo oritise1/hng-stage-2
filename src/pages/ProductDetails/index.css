@@ -1,10 +1,10 @@
 .details {
-    width: auto;
+    max-width: auto;
     height: 2000px;
 }
 
 .inner {
-    width: 992px;
+   max-width: 992px;
     height: 488px;
     top: 200px;
     left: 200px;
@@ -13,16 +13,16 @@
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
 }
 .textSide {
-    width: 472px;
+    max-width: 472px;
     height: 461px;
 }
 .sideHead {
-    width: 231px;
+    max-width: 231px;
     height: 78px;
     margin-top: -20px;
 }
 .sideH{
-    width: 300px;
+    max-width: 300px;
     height: 35px;
     font-family: 'Jost', sans-serif;
     font-weight: 400;
@@ -30,7 +30,7 @@
     line-height: 34.68px;
 }
 .sideP{
-    width: 251px;
+    max-width: 251px;
     height: 35px;
     font-family: 'Jost', sans-serif;
     font-weight: 400;
@@ -39,7 +39,7 @@
     color: #827F7F;
 }
 .story{
-    width: 472px;
+    max-width: 472px;
     height: 174px;
     font-family: 'Jost', sans-serif;
     font-weight: 300;
@@ -49,20 +49,20 @@
     padding: 60px 0;
 }
 .cartBtn {
-    width: 344px;
+   max-width: 344px;
     height: 49px;
     gap: 32px;
     display: flex;
 }
 .btn1{
-    width: 156px;
+   max-width: 156px;
     height: 49px;
     border-radius: 1px;
     border: 4px;
     padding: 10px 16px;
 }
 .btn21{
-    width: 156px;
+    max-width: 156px;
     height: 49px;
     border-radius: 1px;
     border: 4px;
